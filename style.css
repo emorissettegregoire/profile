@@ -1,0 +1,83 @@
+body {
+  background-color: #FCCB8F;
+  font-family:'Open Sans', sans-serif;
+  color: #113F67;
+  font-size: 15px;
+}
+
+h1, h2, h3 {
+  color:#34699A;
+  font-size: 20px;
+  line-height: 10px;
+  margin: 20px;
+
+}
+
+p {
+  color: black;
+}
+
+
+#spacing {
+  letter-spacing: 10px;
+  font-size: 20px;
+}
+
+a, a:visited {
+  color: #113F67;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a:hover, .fab {
+  color: grey;
+}
+
+ul > li {
+  list-style-type: none;
+  display: inline-block;
+
+}
+
+th {
+  text-align: left;
+}
+
+.center
+{
+  text-align: center;
+
+}
+
+thead {
+  font-size: 18px
+}
+
+#avatar {
+  width: 300px;
+  border-radius: 150px;
+  margin-bottom: 10px;
+}
+
+.card {
+  width: 500px;
+  border: 20px solid #FCCB8F;
+  background-color: white;
+  padding: 50px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.fab {
+  font-size: 25px;
+  color: #113F67;
+}
+
+.album {
+  transition: opacity .3s ease-in-out;
+}
+
+.album:hover {
+  opacity: 0.5;
+}
