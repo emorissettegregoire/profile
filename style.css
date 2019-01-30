@@ -81,3 +81,9 @@ thead {
 .album:hover {
   opacity: 0.5;
 }
+
+#name {
+  letter-spacing: 10px;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
